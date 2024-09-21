@@ -1,0 +1,310 @@
+@font-face {
+    font-family: ZONABOLD;
+    src:url('../font/ZonaPro-Bold.otf');
+  }
+  @font-face {
+    font-family: ZONAlight;
+    src:url('../font/ZonaPro-ExtraLight.otf');
+  }
+*{
+   
+    
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 0;
+    margin:0;
+    font-size: 14px;
+    background-color: #868686;
+    font-family:'ZONABOLD';
+}
+img{
+    max-width: 100%;
+}
+.container{
+   max-width: 2160px;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+ul{
+    list-style: none;
+}
+/*navbar*/
+.navbar .container{
+    background-color: #1C1C1C;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    float: left;
+    text-align: center;
+    padding: 0 24px;
+    text-decoration: none;
+        margin: 0;
+        padding-top: 20px;
+        padding-bottom: 32px;
+        overflow: hidden;
+        height: 100%;
+       
+        position: fixed; 
+        overflow: auto;
+    
+    
+
+}
+.navbar img{
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+
+.navbar .container .mainmenu ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center ;
+}
+.navbar .mainmenu ul li a{
+    display:inline-block;
+    padding: 20px;
+    cursor: pointer;
+    border-radius:  100px;
+    border: 2px solid #1C1C1C;
+
+
+}
+.navbar .logo img{
+    width: 56px;
+    height:56px;
+}
+.navbar .mainmenu ul li a:hover{
+    
+    display:inline-block;
+    background-color:#1C1C1C;
+    border-radius:  100px;
+    border: 2px solid #ffffff;
+    transition:0.2s;
+    
+
+}
+.navbar .mainmenu ul li a:active{
+    transform: translateY(2px);
+}
+.navbar .mainmenu ul li a:focus{
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    display:inline-block;
+    background-color: black;
+    border-radius:  100px;
+    
+}
+.navbar .mainmenu{
+    margin-bottom:auto ;
+}
+.navbar .logout{
+    padding-bottom: 32px;
+}
+/*titlebar*/
+
+.titlebar{
+    background-color: #F2F4F6;
+    border-bottom: 2px solid #D7D7D7;
+
+
+
+}
+.titlebar .container{
+    margin-left: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 32px;
+
+}
+.titlebar .container .title-head{
+    font-family:'ZONABOLD';
+    font-size: 28px;
+
+}
+.titlebar .right{
+    display: flex;
+    flex-direction: row;
+    font-family: 'ZONAlight';
+    align-items: center;
+}
+
+  
+
+  .titlebar .title-image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+   
+
+  }
+  .titlebar .title-name{
+
+    font-family: 'ZONABOLD';
+    color: #1C1C1C;
+  }
+
+  .titlebar .arrow :hover{
+    
+    display:inline-block;
+   
+    border-radius:  100px;
+    
+
+}
+.titlebar .arrow :active{
+    transform: translateY(2px);
+}
+/*nav2*/
+.nav2 {
+    
+    background-color:#F2F4F6;
+    width: 970px;
+    height:72px;
+    margin-left: 111px;
+    border: #868686;
+    
+}
+.nav2 .container ul li a{
+    color:#868686;
+    line-height: 24px;
+    font-size: 16px;
+    display: inline-block;
+    padding:20px;
+}
+.nav2 .container ul{
+    display: flex;
+    flex-direction: row;
+    font-family: 'ZONABOLD';
+    justify-content: space-between;
+    align-items:center;
+
+}
+.nav2 .container ul li a:focus{
+    
+    display:inline-block;
+    color: #2D61DE;
+    text-decoration: underline;
+    transition: 0.5s;
+    text-underline-offset: 32px;
+    text-decoration-thickness: 3px;
+    
+
+}
+
+/*CARDS*/
+.cards .container{
+    margin-left: 111px;
+    font-family: 'ZONABOLD';
+    margin-top: 20px;
+    padding: 0 32px;
+}
+.cards .btnor{
+    background: linear-gradient(to left, #FE6A30 50%, #F04729 50%);
+    border-radius: 12px;
+    width:328px;
+    height:208px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+
+
+   
+
+}
+.cards .card1img{
+    height: 136px;
+    width:136px;
+}
+.cards .btnimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards .lightbtn{
+    background-color: #FFFFFF30;
+    color: #ffffff;
+   
+    display:inline-block;
+    padding: 8px 6px;
+    cursor: pointer;
+    border-radius:  6px;
+    width: 94px;
+    height: 32px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 16px;
+   
+}
+.cards .btndark{
+    background-color: #FFFFFF;
+    color: #1C1C1C;
+    
+    display:inline-block;
+    padding: 6px ;
+    cursor: pointer;
+    border-radius:  99999px;
+    width: 108px;
+    height: 20px;
+    text-align: center;
+    line-height: 12px;
+    font-size: 10px;
+   
+}
+.cards .btns .button{
+    background-color: #FFFFFF;
+    border: 2px solid #1c1c1c;
+    color:#1C1C1C;
+    width: 47px;
+    height:47px;
+    display:inline-block;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px;
+}
+.cards .header{
+
+    font-size: 20px;
+    line-height: 24px;
+}
+.cards  .body{
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'ZONAlight';
+    margin-top: 10px;
+}
+.cards .txt{
+    display:flex;
+    flex-direction: column;
+
+}
+.cards .text{
+    display: flex;
+    
+}
+.cards .icon{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.cards .btns ul {
+    display: flex;
+    flex-direction: row;
+
+}
+.cards .card1{
+    display: flex;
+    background: #FFFFFF;
+    border-radius: 24px;
+}
+
+
+
